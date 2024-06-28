@@ -28,7 +28,7 @@ jobs:
         docker build -t manuel239/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push manuel239/docker-graphql:0.0.2 .
+        docker push manuel239/docker-graphql:0.0.2
       
       
 #    - name: Build the Docker image
